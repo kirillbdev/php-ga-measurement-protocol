@@ -1,0 +1,25 @@
+{
+    "name": "kirillbdev/php-ga-measurement-protocol",
+    "description": "Defines object-oriented API over Google Analytics Measurement Protocol.",
+    "type": "library",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "kirillbdev",
+            "email": "kirill.babinec@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "kirillbdev\\MeasurementProtocol\\": "src/",
+            "kirillbdev\\MeasurementProtocol\\Tests\\": "tests/"
+        }
+    }
+}
